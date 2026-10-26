@@ -65,7 +65,7 @@ test('alur lengkap: buat room, tiga orang gabung dari HP masing-masing, pop up t
   for (const halaman of [haikal, bintang, umar]) {
     const traktir = halaman.getByRole('dialog', { name: 'Traktir Tikoem kopi?' })
     await expect(traktir).toBeVisible(REALTIME)
-    await expect(traktir.getByRole('link', { name: 'Traktir lewat Sociabuzz' })).toHaveAttribute('href', 'https://sociabuzz.com/byhund/tribe')
+    await expect(traktir.getByRole('link', { name: 'Traktir lewat Sociabuzz' })).toHaveAttribute('href', 'https://sociabuzz.com/wingmanclutch/tribe')
     await traktir.getByRole('button', { name: 'Tutup' }).click()
     await expect(traktir).toBeHidden()
   }

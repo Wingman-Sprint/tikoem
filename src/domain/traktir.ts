@@ -1,5 +1,5 @@
 /** Halaman traktir Tikoem di Sociabuzz. */
-export const LINK_TRAKTIR = 'https://sociabuzz.com/byhund/tribe'
+export const LINK_TRAKTIR = 'https://sociabuzz.com/wingmanclutch/tribe'
 
 type KeadaanTraktir = {
   /** `room.status === 'menghitung'`. */

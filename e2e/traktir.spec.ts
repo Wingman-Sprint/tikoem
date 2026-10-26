@@ -59,7 +59,7 @@ test('pop up traktir muncul di HP yang sudah gabung saat tempat dicari, sekali p
   await expect(popup(hpBintang)).toBeVisible(REALTIME)
   await expect(popup(hpHaikal).getByRole('link', { name: 'Traktir lewat Sociabuzz' })).toHaveAttribute(
     'href',
-    'https://sociabuzz.com/byhund/tribe',
+    'https://sociabuzz.com/wingmanclutch/tribe',
   )
   await expect(popup(hpHaikal).getByRole('link', { name: 'Traktir lewat Sociabuzz' })).toHaveAttribute('target', '_blank')
 
